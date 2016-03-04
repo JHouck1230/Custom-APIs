@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Custom APIs</title>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+		  <h2>Let's Get Some Information...<small>From the Server!</small></h2>
+	  </div>
+		<div class="row">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<div class="input-group">
+					<input id='squareInput' type="number" class="form-control" placeholder="Square a Number">
+					<span class="input-group-btn">
+						<button id='squareBut' class="input btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</span>
+				</div>
+				<span id='squareOutput' class='output'></span>
+			</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<div class="input-group">
+					<input id='sumInput' type="text" class="form-control" placeholder="Sum Numbers (e.g. 2, 4, 1)">
+					<span class="input-group-btn">
+						<button id='sumBut' class="input btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</span>
+				</div>
+				<span id='sumOutput' class='output'></span>
+			</div>
+		</div>
+		<div class="row">	
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="input-group">
+					<input id='sentInput' type="text" class="form-control" placeholder="Analyze a Sentence">
+					<span class="input-group-btn">
+						<button id='sentBut' class="input btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</span>
+				</div>
+				<span id='sentOutput' class='output'></span>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<div class="input-group">
+					<input id='birthInput' type="date" class="form-control" placeholder="Enter a Birthday">
+					<span class="input-group-btn">
+						<button id='birthBut' class="input btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</span>
+				</div>
+				<span id='birthOutput' class='output'></span>
+			</div>
+		</div>
+		<div class="row">	
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<div class="input-group">
+					<input id='emailInput' type="email" class="form-control" placeholder="Enter an Email Address">
+					<span class="input-group-btn">
+						<button id='emailBut' class="input btn btn-default">
+							<span class="glyphicon glyphicon-search">
+							</span>
+						</button>
+					</span>
+				</div>
+				<img id='gravImage'>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="client.js"></script>
+</body>
+</html>
